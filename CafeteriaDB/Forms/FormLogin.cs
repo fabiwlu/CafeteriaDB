@@ -45,7 +45,7 @@ namespace CafeteriaDB.Forms
 
             // TITULO
             lblTitulo = new Label();
-            lblTitulo.Text = "☕ Cafeteria";
+            lblTitulo.Text = "Cafeteria";
             lblTitulo.Font = new Font("Segoe UI", 20, FontStyle.Bold);
             lblTitulo.ForeColor = Color.FromArgb(30, 57, 36);
             lblTitulo.Location = new Point(20, 25);

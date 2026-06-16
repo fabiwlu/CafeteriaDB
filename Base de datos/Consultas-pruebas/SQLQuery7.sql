@@ -1,0 +1,1 @@
+DELETE FROM Proveedor WHERE CIoRUC = '80012345-1';

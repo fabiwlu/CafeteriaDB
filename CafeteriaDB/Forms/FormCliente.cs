@@ -14,7 +14,8 @@ namespace CafeteriaDB.Forms
         private TextBox txtCI, txtNombre, txtTelefono, txtCorreo, txtDireccion;
         private Button btnGuardar, btnEditar, btnEliminar, btnCancelar;
         private DataGridView dgvClientes;
-
+        private Label lblBuscar;
+        private TextBox txtBuscar;
         private Cliente cliente = new Cliente();
         private int idSeleccionado = 0;
         private bool modoEdicion = false;
@@ -75,6 +76,7 @@ namespace CafeteriaDB.Forms
             this.MaximizeBox = false;
             this.BackColor = Color.FromArgb(226, 224, 222);
             this.KeyPreview = true;
+            this.Icon = new Icon(System.IO.Path.Combine(Application.StartupPath, "cafeteria.ico"));
             this.KeyDown += FormCliente_KeyDown;
 
             // HEADER
@@ -86,12 +88,28 @@ namespace CafeteriaDB.Forms
             };
             lblTitulo = new Label
             {
-                Text = "👥  Gestión de Clientes",
+                Text = "Gestión de Clientes",
                 Font = new Font("Segoe UI", 15, FontStyle.Bold),
                 ForeColor = Color.White,
                 Location = new Point(20, 12),
-                Size = new Size(400, 30)
+                Size = new Size(200, 30)
             };
+            lblBuscar = new Label
+            {
+                Text = "Buscar:",
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                ForeColor = Color.White,
+                Location = new Point(240, 18),
+                Size = new Size(65, 20)
+            };
+            txtBuscar = new TextBox
+            {
+                Location = new Point(310, 14),
+                Size = new Size(230, 26),
+                Font = new Font("Segoe UI", 10),
+                BorderStyle = BorderStyle.FixedSingle
+            };
+            txtBuscar.TextChanged += TxtBuscar_TextChanged;
             Label lblF1h = new Label
             {
                 Text = "F1 = Ayuda",
@@ -103,7 +121,7 @@ namespace CafeteriaDB.Forms
 
             Button btnSalir = new Button
             {
-                Text = "✖ Salir",
+                Text = "Salir",
                 Location = new Point(665, 10),
                 Size = new Size(90, 34),
                 Font = new Font("Segoe UI", 9, FontStyle.Bold),
@@ -120,6 +138,8 @@ namespace CafeteriaDB.Forms
             pnlHeader.Controls.Add(lblTitulo);
             pnlHeader.Controls.Add(lblF1h);
             pnlHeader.Controls.Add(btnSalir);
+            pnlHeader.Controls.Add(lblBuscar);
+            pnlHeader.Controls.Add(txtBuscar);
 
             // PANEL FORMULARIO
             Panel pnlForm = new Panel
@@ -159,12 +179,12 @@ namespace CafeteriaDB.Forms
             lblDireccion = CrearLabel("Dirección", 15, 276);
             txtDireccion = CrearTextBox(15, 296); txtDireccion.MaxLength = 200;
 
-            btnGuardar = CrearBoton("💾 Guardar", Color.FromArgb(47, 108, 72), 15, 350);
+            btnGuardar = CrearBoton("Guardar", Color.FromArgb(47, 108, 72), 15, 350);
             btnGuardar.Click += BtnGuardar_Click;
             btnGuardar.MouseEnter += (s, e) => btnGuardar.BackColor = Color.FromArgb(30, 57, 36);
             btnGuardar.MouseLeave += (s, e) => btnGuardar.BackColor = Color.FromArgb(47, 108, 72);
 
-            btnCancelar = CrearBoton("✖ Cancelar", Color.FromArgb(154, 114, 101), 140, 350);
+            btnCancelar = CrearBoton("Cancelar", Color.FromArgb(154, 114, 101), 140, 350);
             btnCancelar.Visible = false;
             btnCancelar.Click += (s, e) => LimpiarFormulario();
             btnCancelar.MouseEnter += (s, e) => btnCancelar.BackColor = Color.FromArgb(120, 80, 70);
@@ -230,12 +250,12 @@ namespace CafeteriaDB.Forms
             dgvClientes.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(240, 245, 242);
             dgvClientes.CellDoubleClick += (s, e) => { if (e.RowIndex >= 0) BtnEditar_Click(s, e); };
 
-            btnEditar = CrearBoton("✏️ Editar", Color.FromArgb(47, 108, 72), 10, 408);
+            btnEditar = CrearBoton("Editar", Color.FromArgb(47, 108, 72), 10, 408);
             btnEditar.Click += BtnEditar_Click;
             btnEditar.MouseEnter += (s, e) => btnEditar.BackColor = Color.FromArgb(30, 57, 36);
             btnEditar.MouseLeave += (s, e) => btnEditar.BackColor = Color.FromArgb(47, 108, 72);
 
-            btnEliminar = CrearBoton("🗑️ Eliminar", Color.FromArgb(154, 114, 101), 135, 408);
+            btnEliminar = CrearBoton("Eliminar", Color.FromArgb(154, 114, 101), 135, 408);
             btnEliminar.Click += BtnEliminar_Click;
             btnEliminar.MouseEnter += (s, e) => btnEliminar.BackColor = Color.FromArgb(120, 80, 70);
             btnEliminar.MouseLeave += (s, e) => btnEliminar.BackColor = Color.FromArgb(154, 114, 101);
@@ -269,7 +289,7 @@ namespace CafeteriaDB.Forms
             txtCorreo.Clear(); txtDireccion.Clear();
             idSeleccionado = 0;
             modoEdicion = false;
-            btnGuardar.Text = "💾 Guardar";
+            btnGuardar.Text = "Guardar";
             btnCancelar.Visible = false;
             txtCI.Focus();
         }
@@ -325,7 +345,7 @@ namespace CafeteriaDB.Forms
             txtDireccion.Text = fila.Cells["Dirección"].Value?.ToString();
 
             modoEdicion = true;
-            btnGuardar.Text = "✏️ Actualizar";
+            btnGuardar.Text = "Actualizar";
             btnCancelar.Visible = true;
         }
 
@@ -363,6 +383,14 @@ namespace CafeteriaDB.Forms
                     "• ELIMINAR: seleccione un cliente y haga clic en Eliminar\n" +
                     "• CI y Nombre son obligatorios",
                     "Ayuda - Clientes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void TxtBuscar_TextChanged(object sender, EventArgs e)
+        {
+            if (dgvClientes.DataSource is DataTable dt)
+            {
+                string filtro = txtBuscar.Text.Replace("'", "''");
+                dt.DefaultView.RowFilter = string.Format("Nombre LIKE '%{0}%' OR CI LIKE '%{0}%'", filtro);
             }
         }
     }

@@ -16,7 +16,8 @@ namespace CafeteriaDB.Forms
         private Label lblContraseñaInfo;
         private Button btnGuardar, btnEditar, btnEliminar, btnCancelar;
         private DataGridView dgvUsuarios;
-
+        private Label lblBuscar;
+        private TextBox txtBuscar;
         private Usuario usuario = new Usuario();
         private int idSeleccionado = 0;
         private bool modoEdicion = false;
@@ -77,8 +78,9 @@ namespace CafeteriaDB.Forms
             this.MaximizeBox = false;
             this.BackColor = Color.FromArgb(226, 224, 222);
             this.KeyPreview = true;
+            this.Icon = new Icon(System.IO.Path.Combine(Application.StartupPath, "cafeteria.ico"));
             this.KeyDown += FormUsuario_KeyDown;
-
+            
             // HEADER
             pnlHeader = new Panel
             {
@@ -88,12 +90,28 @@ namespace CafeteriaDB.Forms
             };
             lblTitulo = new Label
             {
-                Text = "🔑  Gestión de Usuarios",
+                Text = "Gestión de Usuarios",
                 Font = new Font("Segoe UI", 15, FontStyle.Bold),
                 ForeColor = Color.White,
                 Location = new Point(20, 12),
-                Size = new Size(400, 30)
+                Size = new Size(200, 30)
             };
+            lblBuscar = new Label
+            {
+                Text = "Buscar:",
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                ForeColor = Color.White,
+                Location = new Point(240, 18),
+                Size = new Size(65, 20)
+            };
+            txtBuscar = new TextBox
+            {
+                Location = new Point(310, 14),
+                Size = new Size(230, 26),
+                Font = new Font("Segoe UI", 10),
+                BorderStyle = BorderStyle.FixedSingle
+            };
+            txtBuscar.TextChanged += TxtBuscar_TextChanged;
             Label lblF1h = new Label
             {
                 Text = "F1 = Ayuda",
@@ -105,7 +123,7 @@ namespace CafeteriaDB.Forms
 
             Button btnSalir = new Button
             {
-                Text = "✖ Salir",
+                Text = "Salir",
                 Location = new Point(665, 10),
                 Size = new Size(90, 34),
                 Font = new Font("Segoe UI", 9, FontStyle.Bold),
@@ -116,11 +134,12 @@ namespace CafeteriaDB.Forms
             };
             btnSalir.FlatAppearance.BorderSize = 0;
             btnSalir.Click += (s, e) => this.Close();
-            btnSalir.MouseEnter += (s, e) => btnSalir.BackColor = Color.FromArgb(120, 80, 70);
-            btnSalir.MouseLeave += (s, e) => btnSalir.BackColor = Color.FromArgb(154, 114, 101);
 
             pnlHeader.Controls.Add(lblTitulo);
             pnlHeader.Controls.Add(lblF1h);
+            pnlHeader.Controls.Add(btnSalir);
+            pnlHeader.Controls.Add(lblBuscar);
+            pnlHeader.Controls.Add(txtBuscar);
             // PANEL FORMULARIO
             Panel pnlForm = new Panel
             {
@@ -177,7 +196,7 @@ namespace CafeteriaDB.Forms
 
             Label lActInfo = new Label
             {
-                Text = "S = Activo  /  N = Inactivo",
+                Text = "S = Activo / N = Inactivo",
                 Font = new Font("Segoe UI", 8),
                 ForeColor = Color.Gray,
                 Location = new Point(145, 245),
@@ -199,12 +218,12 @@ namespace CafeteriaDB.Forms
                 Visible = false
             };
 
-            btnGuardar = CrearBoton("💾 Guardar", Color.FromArgb(47, 108, 72), 15, 355);
+            btnGuardar = CrearBoton("Guardar", Color.FromArgb(47, 108, 72), 15, 355);
             btnGuardar.Click += BtnGuardar_Click;
             btnGuardar.MouseEnter += (s, e) => btnGuardar.BackColor = Color.FromArgb(30, 57, 36);
             btnGuardar.MouseLeave += (s, e) => btnGuardar.BackColor = Color.FromArgb(47, 108, 72);
 
-            btnCancelar = CrearBoton("✖ Cancelar", Color.FromArgb(154, 114, 101), 140, 355);
+            btnCancelar = CrearBoton("Cancelar", Color.FromArgb(154, 114, 101), 140, 355);
             btnCancelar.Visible = false;
             btnCancelar.Click += (s, e) => LimpiarFormulario();
             btnCancelar.MouseEnter += (s, e) => btnCancelar.BackColor = Color.FromArgb(120, 80, 70);
@@ -271,12 +290,12 @@ namespace CafeteriaDB.Forms
             dgvUsuarios.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(240, 245, 242);
             dgvUsuarios.CellDoubleClick += (s, e) => { if (e.RowIndex >= 0) BtnEditar_Click(s, e); };
 
-            btnEditar = CrearBoton("✏️ Editar", Color.FromArgb(47, 108, 72), 10, 408);
+            btnEditar = CrearBoton("Editar", Color.FromArgb(47, 108, 72), 10, 408);
             btnEditar.Click += BtnEditar_Click;
             btnEditar.MouseEnter += (s, e) => btnEditar.BackColor = Color.FromArgb(30, 57, 36);
             btnEditar.MouseLeave += (s, e) => btnEditar.BackColor = Color.FromArgb(47, 108, 72);
 
-            btnEliminar = CrearBoton("🗑️ Eliminar", Color.FromArgb(154, 114, 101), 135, 408);
+            btnEliminar = CrearBoton("Eliminar", Color.FromArgb(154, 114, 101), 135, 408);
             btnEliminar.Click += BtnEliminar_Click;
             btnEliminar.MouseEnter += (s, e) => btnEliminar.BackColor = Color.FromArgb(120, 80, 70);
             btnEliminar.MouseLeave += (s, e) => btnEliminar.BackColor = Color.FromArgb(154, 114, 101);
@@ -292,7 +311,7 @@ namespace CafeteriaDB.Forms
 
             Label lSeg = new Label
             {
-                Text = "🔒 Contraseñas ocultas por seguridad",
+                Text = "Contraseñas ocultas por seguridad",
                 Font = new Font("Segoe UI", 8),
                 ForeColor = Color.FromArgb(154, 114, 101),
                 Location = new Point(10, 445),
@@ -320,7 +339,7 @@ namespace CafeteriaDB.Forms
             cmbActivo.SelectedIndex = 0;
             idSeleccionado = 0;
             modoEdicion = false;
-            btnGuardar.Text = "💾 Guardar";
+            btnGuardar.Text = "Guardar";
             btnCancelar.Visible = false;
             lblContraseñaInfo.Visible = false;
             txtCI.Focus();
@@ -405,7 +424,7 @@ namespace CafeteriaDB.Forms
             lblContraseñaInfo.Visible = true;
 
             modoEdicion = true;
-            btnGuardar.Text = "✏️ Actualizar";
+            btnGuardar.Text = "Actualizar";
             btnCancelar.Visible = true;
         }
 
@@ -449,6 +468,14 @@ namespace CafeteriaDB.Forms
                     "• N = no puede iniciar sesión\n\n" +
                     "Al editar, deje la contraseña vacía para no cambiarla.",
                     "Ayuda - Usuarios", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void TxtBuscar_TextChanged(object sender, EventArgs e)
+        {
+            if (dgvUsuarios.DataSource is DataTable dt)
+            {
+                string filtro = txtBuscar.Text.Replace("'", "''");
+                dt.DefaultView.RowFilter = string.Format("Nombre LIKE '%{0}%' OR CI LIKE '%{0}%'", filtro);
             }
         }
     }

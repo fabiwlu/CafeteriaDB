@@ -34,6 +34,7 @@ namespace CafeteriaDB.Forms
             this.MaximizeBox = false;
             this.BackColor = Color.FromArgb(47, 108, 72);
             this.KeyPreview = true;
+            this.Icon = new Icon(System.IO.Path.Combine(Application.StartupPath, "cafeteria.ico"));
             this.KeyDown += FormLogin_KeyDown;
             this.FormClosed += FormLogin_FormClosed;
 
@@ -188,6 +189,20 @@ namespace CafeteriaDB.Forms
                     "• Usuario: solo Clientes y Productos",
                     "Ayuda", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
+            this.SuspendLayout();
+            // 
+            // FormLogin
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FormLogin";
+            this.ResumeLayout(false);
+
         }
     }
 }

@@ -1,1 +1,0 @@
-DELETE FROM Cliente WHERE ID = 2;

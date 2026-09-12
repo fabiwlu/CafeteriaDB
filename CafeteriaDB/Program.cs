@@ -10,6 +10,12 @@ namespace CafeteriaDB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            using (Forms.FormSplash splash = new Forms.FormSplash())
+            {
+                splash.ShowDialog();
+            }
+
             Application.Run(new Forms.FormLogin());
         }
     }

@@ -17,7 +17,11 @@ namespace CafeteriaDB.Forms
         private Button btnProductos;
         private Button btnProveedores;
         private Button btnUsuarios;
+        private Button btnEmpleados;
+        private Button btnFacturacion;
+        private Button btnCompras;
         private Button btnSalir;
+        private Button btnReportes;
 
         public FormMenu(string nivel, string nombre)
         {
@@ -47,7 +51,7 @@ namespace CafeteriaDB.Forms
         {
             // FORM
             this.Text = "CafeteriaDB - Menú Principal";
-            this.Size = new Size(600, 500);
+            this.Size = new Size(600, 660);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -96,7 +100,11 @@ namespace CafeteriaDB.Forms
             lblModulos.Location = new Point(30, 100);
             lblModulos.Size = new Size(300, 25);
 
-            // BOTONES
+            // ---- GRILLA 3x3 ----
+            // Columnas: x = 30, 195, 360   (150 ancho + 15 gap)
+            // Filas:    y = 135, 260, 385  (110 alto + 15 gap)
+
+            // Fila 1
             btnClientes = CrearBoton("Clientes", 30, 135);
             btnClientes.Click += (s, e) => new FormCliente().ShowDialog();
 
@@ -106,13 +114,27 @@ namespace CafeteriaDB.Forms
             btnProveedores = CrearBoton("Proveedores", 360, 135);
             btnProveedores.Click += (s, e) => new FormProveedor().ShowDialog();
 
-            btnUsuarios = CrearBoton("Usuarios", 30, 260);
+            // Fila 2
+            btnEmpleados = CrearBoton("Gestión de\nEmpleados", 30, 260);
+            btnEmpleados.Click += (s, e) => new FormEmpleado().ShowDialog();
+
+            btnFacturacion = CrearBoton("Ventas /\nFacturación", 195, 260);
+            btnFacturacion.Click += (s, e) => new FormFacturacion().ShowDialog();
+
+            btnCompras = CrearBoton("Compra a\nProveedores", 360, 260);
+            btnCompras.Click += (s, e) => new FormCompra().ShowDialog();
+
+            // Fila 3
+            btnUsuarios = CrearBoton("Usuarios", 30, 385);
             btnUsuarios.Click += (s, e) => new FormUsuario().ShowDialog();
+
+            btnReportes = CrearBoton("Reportes", 195, 385);
+            btnReportes.Click += (s, e) => new FormAuditoria().ShowDialog();
 
             // BOTON SALIR
             btnSalir = new Button();
             btnSalir.Text = "Cerrar Sesión";
-            btnSalir.Location = new Point(360, 370);
+            btnSalir.Location = new Point(360, 415);
             btnSalir.Size = new Size(150, 50);
             btnSalir.Font = new Font("Segoe UI", 10, FontStyle.Bold);
             btnSalir.BackColor = Color.FromArgb(154, 114, 101);
@@ -127,7 +149,7 @@ namespace CafeteriaDB.Forms
             lblF1.Text = "Presione F1 para ayuda";
             lblF1.Font = new Font("Segoe UI", 8);
             lblF1.ForeColor = Color.FromArgb(135, 168, 152);
-            lblF1.Location = new Point(30, 390);
+            lblF1.Location = new Point(30, 510);
             lblF1.Size = new Size(200, 18);
 
             this.Controls.Add(pnlHeader);
@@ -135,9 +157,13 @@ namespace CafeteriaDB.Forms
             this.Controls.Add(btnClientes);
             this.Controls.Add(btnProductos);
             this.Controls.Add(btnProveedores);
+            this.Controls.Add(btnEmpleados);
+            this.Controls.Add(btnFacturacion);
+            this.Controls.Add(btnCompras);
             this.Controls.Add(btnUsuarios);
             this.Controls.Add(btnSalir);
             this.Controls.Add(lblF1);
+            this.Controls.Add(btnReportes);
         }
 
         private void ConfigurarSegunNivel()
@@ -146,7 +172,6 @@ namespace CafeteriaDB.Forms
             {
                 lblNivel.Text = "Administrador";
 
-                // Admin: todos los botones activos
                 btnClientes.Enabled = true;
                 btnProductos.Enabled = true;
                 btnProveedores.Enabled = true;
@@ -161,14 +186,16 @@ namespace CafeteriaDB.Forms
             {
                 lblNivel.Text = "Usuario";
 
-                // Usuario: solo Clientes activo
                 btnClientes.Enabled = true;
                 btnClientes.BackColor = Color.FromArgb(47, 108, 72);
 
-                // Productos, Proveedores y Usuarios desactivados visualmente
                 DesactivarBoton(btnProductos);
                 DesactivarBoton(btnProveedores);
                 DesactivarBoton(btnUsuarios);
+                DesactivarBoton(btnEmpleados);     
+                DesactivarBoton(btnFacturacion);    
+                DesactivarBoton(btnCompras);
+                DesactivarBoton(btnReportes);
             }
         }
 
@@ -196,6 +223,7 @@ namespace CafeteriaDB.Forms
             Application.Exit();
         }
 
+        
         private void FormMenu_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.F1)
@@ -206,11 +234,14 @@ namespace CafeteriaDB.Forms
                 {
                     ayuda += "• Productos: gestión de productos\n";
                     ayuda += "• Proveedores: gestión de proveedores\n";
+                    ayuda += "• Gestión de Empleados: alta, edición y baja de empleados\n";
+                    ayuda += "• Ventas / Facturación: registrar ventas y emitir factura\n";
+                    ayuda += "• Compra a Proveedores: registrar compras y actualizar stock\n";
                     ayuda += "• Usuarios: gestión de usuarios del sistema\n";
                 }
                 else
                 {
-                    ayuda += "• Productos, Proveedores y Usuarios: sin acceso (solo Admin)\n";
+                    ayuda += "• Productos, Proveedores, Empleados, Facturación, Compras y Usuarios: sin acceso (solo Admin)\n";
                 }
                 ayuda += "\nNivel actual: " + nivelUsuario;
                 MessageBox.Show(ayuda, "Ayuda", MessageBoxButtons.OK, MessageBoxIcon.Information);

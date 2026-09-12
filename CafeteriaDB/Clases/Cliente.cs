@@ -32,14 +32,13 @@ namespace CafeteriaDB.Clases
             try
             {
                 conexion.Conectar();
-                SqlCommand cmd = new SqlCommand(
-                    "INSERT INTO Cliente (CI, Nombre, [Teléfono], Correo, [Dirección]) VALUES (@ci, @nombre, @telefono, @correo, @direccion)",
-                    conexion.ObtenerConexion());
-                cmd.Parameters.AddWithValue("@ci", ci);
-                cmd.Parameters.AddWithValue("@nombre", nombre);
-                cmd.Parameters.AddWithValue("@telefono", telefono ?? "");
-                cmd.Parameters.AddWithValue("@correo", correo ?? "");
-                cmd.Parameters.AddWithValue("@direccion", direccion ?? "");
+                SqlCommand cmd = new SqlCommand("spu_AltaCliente", conexion.ObtenerConexion());
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@CI", ci);
+                cmd.Parameters.AddWithValue("@Nombre", nombre);
+                cmd.Parameters.AddWithValue("@Telefono", telefono ?? "");
+                cmd.Parameters.AddWithValue("@Correo", correo ?? "");
+                cmd.Parameters.AddWithValue("@Direccion", direccion ?? "");
                 cmd.ExecuteNonQuery();
                 conexion.Desconectar();
                 return true;

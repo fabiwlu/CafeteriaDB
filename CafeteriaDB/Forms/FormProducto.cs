@@ -90,23 +90,23 @@ namespace CafeteriaDB.Forms
             lblTitulo = new Label
             {
                 Text = "Gestión de Productos",
-                Font = new Font("Segoe UI", 15, FontStyle.Bold),
+                Font = new Font("Segoe UI", 12, FontStyle.Bold),
                 ForeColor = Color.White,
                 Location = new Point(20, 12),
-                Size = new Size(210, 30)
+                Size = new Size(200, 30)
             };
             lblBuscar = new Label
             {
-                Text = "Buscar:",
+                Text = "Buscar: ",
                 Font = new Font("Segoe UI", 10, FontStyle.Bold),
                 ForeColor = Color.White,
-                Location = new Point(250, 18),
-                Size = new Size(65, 20)
+                Location = new Point(255, 18),
+                Size = new Size(55, 20)
             };
             txtBuscar = new TextBox
             {
                 Location = new Point(310, 14),
-                Size = new Size(230, 26),
+                Size = new Size(140, 26),
                 Font = new Font("Segoe UI", 10),
                 BorderStyle = BorderStyle.FixedSingle
             };
@@ -131,6 +131,7 @@ namespace CafeteriaDB.Forms
                 FlatStyle = FlatStyle.Flat,
                 Cursor = Cursors.Hand
             };
+
             btnSalir.FlatAppearance.BorderSize = 0;
             btnSalir.Click += (s, e) => this.Close();
             btnSalir.MouseEnter += (s, e) => btnSalir.BackColor = Color.FromArgb(120, 80, 70);

@@ -185,24 +185,10 @@ namespace CafeteriaDB.Forms
                     "2. Ingrese su contraseña\n" +
                     "3. Haga clic en Ingresar o presione Enter\n\n" +
                     "Niveles de acceso:\n" +
-                    "• Admin: acceso completo\n" +
-                    "• Usuario: solo Clientes y Productos",
+                    "• Admin: acceso completo.\n" +
+                    "• Usuario: solo Clientes.",
                     "Ayuda", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        }
-
-        private void InitializeComponent()
-        {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
-            this.SuspendLayout();
-            // 
-            // FormLogin
-            // 
-            this.ClientSize = new System.Drawing.Size(282, 253);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormLogin";
-            this.ResumeLayout(false);
-
         }
     }
 }

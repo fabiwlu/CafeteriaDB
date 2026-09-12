@@ -1,195 +1,499 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\",
+  "WorkspaceRootPath": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|c:\\users\\fabil\\onedrive\\desktop\\fabiola_c\u00E1ceres\\programas_fuentes\\cafeteriadb\\forms\\formcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|c:\\users\\fabil\\onedrive\\desktop\\---\\cafeteria_8\\programas_fuentes\\cafeteriadb\\forms\\formempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\forms\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\forms\\formproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\forms\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formhistorialcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formhistorialcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\forms\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formhistorialventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formhistorialventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formbuscarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formbuscarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formbuscarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formbuscarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\auditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\auditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\clases\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formfacturaimpresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formfacturaimpresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\excelexporthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\excelexporthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formbuscarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formbuscarproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\clases\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\cafeteriadb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\forms\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\forms\\formusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\cafeteriadb\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619B7120-50C0-4919-9E1F-D7338E5CA51C}|CafeteriaDB\\CafeteriaDB.csproj|solutionrelative:cafeteriadb\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 221,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormHistorialCompras.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormHistorialCompras.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormHistorialCompras.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormHistorialCompras.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormHistorialCompras.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAA2wIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T20:50:59.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormAuditoria.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormAuditoria.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormAuditoria.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormAuditoria.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAcwNoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T20:54:26.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExcelExportHelper.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\ExcelExportHelper.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\ExcelExportHelper.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\ExcelExportHelper.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\ExcelExportHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T20:53:30.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Auditoria.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Auditoria.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Auditoria.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Auditoria.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\Auditoria.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T20:49:56.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormBuscarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormBuscarCliente.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormBuscarCliente.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormBuscarCliente.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormBuscarCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T12:24:51.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormBuscarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormBuscarProducto.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormBuscarProducto.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormBuscarProducto.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormBuscarProducto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCIAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T12:19:09.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormHistorialVentas.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormHistorialVentas.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormHistorialVentas.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormHistorialVentas.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormHistorialVentas.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAcwMoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T20:41:38.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormSplash.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormSplash.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormSplash.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormSplash.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormSplash.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T21:18:21.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormBuscarProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormBuscarProveedor.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormBuscarProveedor.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormBuscarProveedor.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormBuscarProveedor.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T20:16:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormFacturaImpresion.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormFacturaImpresion.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormFacturaImpresion.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormFacturaImpresion.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormFacturaImpresion.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T21:11:21.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormCompra.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormCompra.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormCompra.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormCompra.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormCompra.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAcwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:27:41.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormFacturacion.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormFacturacion.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormFacturacion.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormFacturacion.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormFacturacion.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:26:32.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormEmpleado.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormEmpleado.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormEmpleado.cs",
+              "RelativeToolTip": "CafeteriaDB\\Forms\\FormEmpleado.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAYwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:24:44.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\DetalleCompra.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\DetalleCompra.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:22:13.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Compra.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Compra.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Compra.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\Compra.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAcwGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:21:35.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\DetalleVenta.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\DetalleVenta.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:20:53.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Venta.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Venta.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Venta.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\Venta.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:20:02.946Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Empleado.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Empleado.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Empleado.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:18:44.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "FormUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormUsuario.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormUsuario.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormUsuario.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormUsuario.cs",
               "RelativeToolTip": "CafeteriaDB\\Forms\\FormUsuario.cs",
-              "ViewState": "AgIAAMIBAAAAAAAAAAAAAN8BAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAswOABAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T18:15:53.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "FormProveedor.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProveedor.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormProveedor.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProveedor.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProveedor.cs",
               "RelativeToolTip": "CafeteriaDB\\Forms\\FormProveedor.cs",
-              "ViewState": "AgIAAHkBAAAAAAAAAAAqwGsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwBwBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T18:14:48.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "FormProducto.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProducto.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProducto.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormProducto.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProducto.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormProducto.cs",
               "RelativeToolTip": "CafeteriaDB\\Forms\\FormProducto.cs",
-              "ViewState": "AgIAAJUBAAAAAAAAAAAuwKwBAABCAAAAAAAAAA==",
+              "ViewState": "AgIAACkBAAAAAAAAAAA3wKoBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T18:13:01.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 21,
               "Title": "FormCliente.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormCliente.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormCliente.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormCliente.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormCliente.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormCliente.cs",
               "RelativeToolTip": "CafeteriaDB\\Forms\\FormCliente.cs",
-              "ViewState": "AgIAAHQBAAAAAAAAAAAAAGkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwE4AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T18:11:35.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T12:22:22.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "FormMenu.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormMenu.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormMenu.cs",
               "RelativeToolTip": "CafeteriaDB\\Forms\\FormMenu.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAiwDcAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T18:10:39.634Z"
+              "WhenOpened": "2026-07-24T12:22:40.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormLogin.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Forms\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Forms\\FormLogin.cs",
               "RelativeToolTip": "CafeteriaDB\\Forms\\FormLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAA9wLsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T18:08:00.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Program.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Program.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Program.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Program.cs",
               "RelativeToolTip": "CafeteriaDB\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T17:36:24.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Usuario.cs",
+              "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Usuario.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Usuario.cs",
+              "RelativeToolTip": "CafeteriaDB\\Clases\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T13:33:42.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Proveedor.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Proveedor.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Proveedor.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Proveedor.cs",
               "RelativeToolTip": "CafeteriaDB\\Clases\\Proveedor.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwG4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T17:33:17.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Producto.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Producto.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Producto.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Producto.cs",
               "RelativeToolTip": "CafeteriaDB\\Clases\\Producto.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAA6wHUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T17:32:27.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Cliente.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Cliente.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Cliente.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Cliente.cs",
               "RelativeToolTip": "CafeteriaDB\\Clases\\Cliente.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowIYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T17:31:37.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 29,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Conexion.cs",
               "RelativeDocumentMoniker": "CafeteriaDB\\Clases\\Conexion.cs",
-              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\Fabiola_C\u00E1ceres\\Programas_Fuentes\\CafeteriaDB\\Clases\\Conexion.cs",
+              "ToolTip": "C:\\Users\\fabil\\OneDrive\\Desktop\\---\\Cafeteria_8\\Programas_Fuentes\\CafeteriaDB\\Clases\\Conexion.cs",
               "RelativeToolTip": "CafeteriaDB\\Clases\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T17:18:50.829Z"
             }

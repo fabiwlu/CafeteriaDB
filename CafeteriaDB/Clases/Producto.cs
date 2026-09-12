@@ -85,7 +85,7 @@ namespace CafeteriaDB.Clases
             try
             {
                 conexion.Conectar();
-                SqlCommand cmd = new SqlCommand("DELETE FROM Producto WHERE ID=@id", conexion.ObtenerConexion());
+                SqlCommand cmd = new SqlCommand("UPDATE Producto SET Activo = 0 WHERE ID=@id", conexion.ObtenerConexion());
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
                 conexion.Desconectar();
@@ -103,7 +103,7 @@ namespace CafeteriaDB.Clases
             try
             {
                 conexion.Conectar();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Producto", conexion.ObtenerConexion());
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Producto WHERE Activo = 1", conexion.ObtenerConexion());
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
